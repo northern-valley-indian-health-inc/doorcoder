@@ -25,7 +25,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationRevision>8</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -51,10 +51,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>5C0C78BF2CA82F64ADEC29B7143C5922B8A8D3AB</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>79B6A83B498BF1C7731D4654CFD9BBDCC334A4AD</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Door Code Converter_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -66,7 +67,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>medication_labeler-MWELLERNVIH.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>door-code-MWELLERNVIH.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -103,6 +104,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="Door Code Converter_TemporaryKey.pfx" />
+    <None Include="door-code-MWELLERNVIH.pfx" />
     <None Include="medication_labeler-MWELLERNVIH.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
